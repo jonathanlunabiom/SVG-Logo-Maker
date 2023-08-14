@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const {Triangle,Circle,Square} = require('./lib/shapes');
+const {Triangle,Circle,Square,Shape} = require('./lib/shapes');
 const Svg = require('./lib/svg.js');
 
 
@@ -39,10 +39,12 @@ inquirer.prompt([
         default:
             shape = new Triangle()
     } 
+
+    shape.setColor(a.shapecolor)
     
     const svg = new Svg()
     svg.setText(a.text,a.color)
-    svg.setShape(a.shape)
+    svg.setShape(shape)
 
    return fs.writeFile('mylogo.svg',svg.render(),(err)=>{
         if (err) throw err;
