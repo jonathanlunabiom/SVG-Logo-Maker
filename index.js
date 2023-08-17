@@ -27,8 +27,9 @@ inquirer.prompt([
         message: 'Enter a shape color',
     },
     ])
-.then((a)=> {
+.then((a) => {
     let shape;
+
     switch(a.shape){
         case 'circle':
             shape = new Circle()
@@ -41,7 +42,11 @@ inquirer.prompt([
     } 
 
     shape.setColor(a.shapecolor)
+<<<<<<< Updated upstream
     
+=======
+
+>>>>>>> Stashed changes
     const svg = new Svg()
     svg.setText(a.text,a.color)
     svg.setShape(shape)
