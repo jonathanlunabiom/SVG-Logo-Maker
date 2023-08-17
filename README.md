@@ -10,7 +10,7 @@
 
 ## Description
 
-SVG-Logo-Maker allow you to create an svg logo with a maximun of 3 characters. Only by running the main file in your terminal you may set up the characteristics of your logo, with just a few answers you may receive an .svg file to implement on your own websites.
+SVG-Logo-Maker allow you to create an svg logo with a maximum of 3 characters. Only by running the main file in your terminal you may set up the characteristics of your logo, with just a few answers you may receive an .svg file to implement on your own websites.
 
 ## Usage
 
