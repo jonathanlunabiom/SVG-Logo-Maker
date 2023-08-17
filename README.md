@@ -23,7 +23,7 @@ SVG-Logo-Maker allow you to create an svg logo with a maximun of 3 characters. O
 
 ## Video
 
-![YouTube Video](https://youtu.be/sBiYbQklSlQ)
+[YouTube Video](https://youtu.be/sBiYbQklSlQ)
 
 ## License
 
