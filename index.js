@@ -42,11 +42,6 @@ inquirer.prompt([
     } 
 
     shape.setColor(a.shapecolor)
-<<<<<<< Updated upstream
-    
-=======
-
->>>>>>> Stashed changes
     const svg = new Svg()
     svg.setText(a.text,a.color)
     svg.setShape(shape)
